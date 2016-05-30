@@ -10,7 +10,7 @@
     "brightoolkit"
   ],
   "bin": {
-    "bright": "bin/brightjs.js"
+    "bright": "bin/brightkit.js"
   },
   "repository": {
     "type": "git",

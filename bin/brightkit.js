@@ -53,10 +53,12 @@ commander.prototype.showDesc = function () {
 
 new commander().bind("version", "show version", null, function () {
     console.log('version is ' + json.version);
-}).bind("create", "show version", null, function () {
+}).bind("create", "create a project at current folder", null, function () {
     base.create();
-}).bind("run", "show version", null, function () {
+}).bind("run", "run the project by corigiserver", null, function () {
     base.run();
+}).bind("build", "build the project by brightbuilder", null, function () {
+    base.build();
 }).call(process.argv.slice(2));
 process.on("uncaughtException", function (e) {
     console.log(e.stack);
