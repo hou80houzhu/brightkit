@@ -12,7 +12,15 @@
   "bin": {
     "bright": "bin/brightjs.js"
   },
-  "author": "hou80",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hou80houzhu/brightkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hou80houzhu/brightkit/issues"
+  },
+  "homepage": "https://github.com/hou80houzhu/brightkit#readme",
+  "author": "hou80houzhu",
   "contributors": [],
   "dependencies": {
     "brightbuilder": "0.0.11",
