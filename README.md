@@ -17,10 +17,11 @@ Useage:
 ## How to use
 
 ```
-  $ mkdir projectName
-  $ cd projectName
-  $ brightkit create
-  $ brightkit run
+$ npm install brightkit -g
+$ mkdir projectName
+$ cd projectName
+$ brightkit create
+$ brightkit run
 ```
 
 ## License

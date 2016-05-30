@@ -3,7 +3,7 @@ var builder = require("brightbuilder");
 require("./bright");
 module.exports = {
     create: function () {
-        var projectPath = process.cwd(), resourcePath = __dirname + "/res", buildPath = resourcePath + "/webapp/src/build.json", projectName = projectPath.split("/").pop();
+        var projectPath = process.cwd().replace(/\\/g,"/"), resourcePath = __dirname + "/res", buildPath = resourcePath + "/webapp/src/build.json", projectName = projectPath.split("/").pop();
         bright.file(buildPath).read().then(function (a) {
             var t = JSON.parse(a);
             t.id = projectName;

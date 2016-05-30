@@ -1,6 +1,6 @@
 {
   "name": "brightkit",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "CLIs for BrightJS.",
   "keywords": [
     "util",
