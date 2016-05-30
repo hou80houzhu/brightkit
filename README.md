@@ -14,6 +14,15 @@ Useage:
    build        build the project by brightbuilder
 ```
 
+## How to use
+
+```
+  $ mkdir projectName
+  $ cd projectName
+  $ brightkit create
+  $ brightkit run
+```
+
 ## License
 
 Copyright (c) 2016-2017 WangJinliang(hou80houzhu)

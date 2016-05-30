@@ -1,6 +1,6 @@
 {
   "name": "brightkit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "keywords": [
     "util",
     "functional",
@@ -10,7 +10,7 @@
     "brightoolkit"
   ],
   "bin": {
-    "bright": "bin/brightkit.js"
+    "brightkit": "bin/brightkit.js"
   },
   "repository": {
     "type": "git",
