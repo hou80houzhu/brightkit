@@ -1,0 +1,16 @@
+{
+    "page":{
+        "index": "index.csp"
+    },
+    "service":[
+        {"name":"mvcservice","option":{
+            "view":{
+                "path":"webapp",
+                "suffix":"html"
+            }
+        }}
+    ],
+    "filter":[
+        {"name":"mvcfilter","option":{}}
+    ]
+}

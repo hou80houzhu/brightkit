@@ -1,0 +1,21 @@
+{
+   "id": "test",
+   "build": "000001",
+   "pathPrefix": "<%=request.getHttpPath();%>front/",
+   "updatePage": {
+      "type": 1,
+      "path": [
+         "../../index.html",
+         "../../index.csp"
+      ]
+   },
+   "cssCompressWithout": [],
+   "codeCompressWithout": [],
+   "tmpCompressWithout": [],
+   "jsNoCompress": [
+      "blog/lib"
+   ],
+   "cssNoCompress": [
+      "blog/lib"
+   ]
+}

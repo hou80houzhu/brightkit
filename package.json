@@ -1,0 +1,21 @@
+{
+  "name": "brightkit",
+  "version": "0.0.3",
+  "keywords": [
+    "util",
+    "functional",
+    "brightjs",
+    "corgiserver",
+    "brightbuilder",
+    "brightoolkit"
+  ],
+  "bin": {
+    "bright": "bin/brightjs.js"
+  },
+  "author": "hou80",
+  "contributors": [],
+  "dependencies": {
+    "brightbuilder": "0.0.11",
+    "corgiserver": "^0.1.13"
+  }
+}
